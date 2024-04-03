@@ -1,0 +1,71 @@
+@import url("bootstap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-bg {
+  background-color: #102039;
+  padding: 50px 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-text-container {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.image-text-container .image-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image-text-container .image-text img {
+  max-width: 150px;
+  /* Adjust image width as needed */
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.big-image img {
+  max-width: 300px;
+}
+
+.body nav {
+  background-color: rgba(16, 32, 57, 0.9);
+}
+
+.one {
+  background-color: #979595;
+}
+
+.text {
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #102039;
+  padding: 20px 0;
+}
